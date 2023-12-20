@@ -3,6 +3,8 @@
 
 ![aikawa](https://github.com/AikawaAsami/ServerSwitcherAikawa/assets/114198361/a20aa48a-34f9-4a30-a00f-bc319fedd530)
 
+**Download The ServerSwitcherAikawa [Here](https://github.com/AikawaAsami/ServerSwitcherAikawa/releases/tag/aikawa)**
+
 # Available Servers To Switch :
 **Mamestagram osu! Server**
 
