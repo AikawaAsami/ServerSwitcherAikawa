@@ -7,6 +7,5 @@
 ***
 1 : Put `ServerSwitcherAikawa.exe` on osu! Folder
 2 : Make A Shorcut Of `ServerSwitcherAikawa.exe` And Drag To Your Desktop For Easier To Switch
-3 : Enjoy?***
-
-> 
+3 : Enjoy?
+***
