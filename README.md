@@ -1,4 +1,4 @@
-# ServerSwitcherAikawa
+# ServerSwitcherAikawa ( SSA )
 ## A Server Switcher for osu! Created By Aikawa Asami
 
 ![aikawa](https://github.com/AikawaAsami/ServerSwitcherAikawa/assets/114198361/a20aa48a-34f9-4a30-a00f-bc319fedd530)
