@@ -5,6 +5,8 @@
 
 **Download The ServerSwitcherAikawa [Here](https://github.com/AikawaAsami/ServerSwitcherAikawa/releases/tag/aikawa)**
 
+> This Is Now Opensource!
+
 # Available Servers To Switch :
 **Mamestagram osu! Server**
 
@@ -32,4 +34,5 @@
 
 > [!NOTE]
 > Use original osu! client to have no issues switching server with this `ServerSwitcherAikawa`
+
 <!-- if you can read this, plis gibe me mone ehe :3-->
