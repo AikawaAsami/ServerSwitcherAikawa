@@ -1,4 +1,3 @@
-os.execute("COLOR 0D")
 local aikawa_dirSeparator = package.config:sub(1, 1)
 
 if aikawa_dirSeparator == "/" then
