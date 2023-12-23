@@ -32,8 +32,4 @@
 
 > [!NOTE]
 > Use original osu! client to have no issues switching server with this `ServerSwitcherAikawa`
-
-> Should I Make This Opensource?
-
-> I Want To Make This Opensource Actually, But My Code Sucks LOL + It's Made In **Lua**
 <!-- if you can read this, plis gibe me mone ehe :3-->
