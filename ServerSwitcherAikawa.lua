@@ -68,7 +68,7 @@ os.execute(aikawa_clear)
 
 if aikawa_readinput_m == tostring(1) then
     local aikawa_server = "Mamestagram"
-    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server..")
+    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server)
     sleep(5)
     os.execute("osu!.exe -devserver web.mamesosu.net")
     sleep(5)
@@ -77,7 +77,7 @@ end
 
 if aikawa_readinput_m == tostring(2) then
     local aikawa_server = "Akatsuki"
-    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server..")
+    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server)
     sleep(5)
     os.execute("osu!.exe -devserver akatsuki.gg")
     sleep(5)
@@ -86,7 +86,7 @@ end
 
 if aikawa_readinput_m == tostring(3) then
     local aikawa_server = "Kawata"
-    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server..")
+    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server)
     sleep(5)
     os.execute("osu!.exe -devserver kawata.pw")
     sleep(5)
@@ -95,7 +95,7 @@ end
 
 if aikawa_readinput_m == tostring(4) then
     local aikawa_server = "Fuquila"
-    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server..")
+    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server)
     sleep(5)
     os.execute("osu!.exe -devserver fuquila.net")
     sleep(5)
@@ -104,7 +104,7 @@ end
 
 if aikawa_readinput_m == tostring(5) then
     local aikawa_server = "Gatari"
-    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server..")
+    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server)
     sleep(5)
     os.execute("osu!.exe -devserver gatari.pw")
     sleep(5)
@@ -113,7 +113,7 @@ end
 
 if aikawa_readinput_m == tostring(6) then
     local aikawa_server = "Atoka"
-    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server..")
+    print("[Aikawa Asami] : Launching osu! connected to:  "..aikawa_server)
     sleep(5)
     os.execute("osu!.exe -devserver atoka.pw")
     sleep(5)
@@ -122,7 +122,7 @@ end
 
 if aikawa_readinput_m == tostring(7) then
     local aikawa_server = "Nekosu"
-    print("[Aikawa Asami] : Launching osu! connected to: "..aikawa_server..")
+    print("[Aikawa Asami] : Launching osu! connected to: "..aikawa_server)
     sleep(5)
     os.execute("osu!.exe -devserver nksu.gg")
     sleep(5)
