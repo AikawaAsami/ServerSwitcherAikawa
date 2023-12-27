@@ -20,6 +20,7 @@
 
 **Atoka osu! Server**
 
+**Nekosu osu! Server**
  
 # How To Use?
 **1 : Put `ServerSwitcherAikawa.exe` on osu! Folder**
