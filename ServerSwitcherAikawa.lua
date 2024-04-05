@@ -48,14 +48,15 @@ local aikawa_menu = io.write([===[
     [5] : Gatari osu! Server (Paid Server)
     [6] : Atoka osu! Server (Allowed Cheat Server)
     [7] : Nekosu osu! Server (Normal Server)
-    [8] : Offline osu! Mode (Test)
+    [8] : Ascension osu! Server (Normal Server)
+    [9] : Offline osu! Mode (Test)
     [0] : Exit Aikawa Server Switcher
 
     [Aikawa Asami] : Enter Number - ]===])
 
 aikawa_readinput_m = io.read()
 
-local aikawa_allowlist = {"1","2","3","4","5","6","7", "8", "0"}
+local aikawa_allowlist = {"1","2","3","4","5","6","7","8","9","0"}
 
 if table.concat(aikawa_allowlist, ""):find(aikawa_readinput_m) then
     
@@ -129,8 +130,17 @@ if aikawa_readinput_m == tostring(7) then
     os.execute(aikawa_clear)
 end
 
-
 if aikawa_readinput_m == tostring(8) then
+    local aikawa_server = "Ascension"
+    print("[Aikawa Asami] : Launching osu! connected to: "..aikawa_server)
+    sleep(5)
+    os.execute("osu!.exe -devserver ascension.wtf")
+    sleep(5)
+    os.execute(aikawa_clear)
+end
+
+
+if aikawa_readinput_m == tostring(9) then
     local aikawa_server = "OFFLINE"
     print("[Aikawa Asami] : NOTE - This Is Just A Test Function")
     sleep(10)
