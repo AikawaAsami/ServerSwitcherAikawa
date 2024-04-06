@@ -27,12 +27,12 @@ print(aikawa_line)
 print([===[
     
                                                                               
-  /\  | |__/  /\  |  |  /\                                                              
- /~~\ | |  \ /~~\ |/\| /~~\                                                             
-                                                                                        
-  __   __         / __   ___  __        ___  __      __         ___  __        ___  __  
- /  \ /__` |  |  / /__` |__  |__) \  / |__  |__)    /__` |  | |  |  /  ` |__| |__  |__) 
- \__/ .__/ \__/ .  .__/ |___ |  \  \/  |___ |  \    .__/ |/\| |  |  \__, |  | |___ |  \ 
+  _____                          _____         _ _       _                      _ _                       _ 
+ / ____|                        / ____|       (_) |     | |               /\   (_) |                     | |
+| (___   ___ _ ____   _____ _ _| (_____      ___| |_ ___| |__   ___ _ __ /  \   _| | ____ ___      ____ _| |
+ \___ \ / _ \ '__\ \ / / _ \ '__\___ \ \ /\ / / | __/ __| '_ \ / _ \ '__/ /\ \ | | |/ / _` \ \ /\ / / _` | |
+_ ___) |  __/ |   \ V /  __/ |  ____) \ V  V /| | || (__| | | |  __/ | / ____ \| |   < (_| |\ V  V / (_| |_|
+|_____/ \___|_|    \_/ \___|_| |_____/ \_/\_/ |_|\__\___|_| |_|\___|_|/_/    \_\_|_|\_\__,_| \_/\_/ \__,_(_)
                                                                                         
 ]===])
 print(aikawa_line)
@@ -48,14 +48,15 @@ local aikawa_menu = io.write([===[
     [5] : Gatari osu! Server (Paid Server)
     [6] : Atoka osu! Server (Allowed Cheat Server)
     [7] : Nekosu osu! Server (Normal Server)
-    [8] : Offline osu! Mode (Test)
+    [8] : Ascension osu! Server (Normal Server)
+    [9] : Offline osu! Mode (Localhost With Coverosu Server!)
     [0] : Exit Aikawa Server Switcher
 
     [Aikawa Asami] : Enter Number - ]===])
 
 aikawa_readinput_m = io.read()
 
-local aikawa_allowlist = {"1","2","3","4","5","6","7", "8", "0"}
+local aikawa_allowlist = {"1","2","3","4","5","6","7","8","9","0"}
 
 if table.concat(aikawa_allowlist, ""):find(aikawa_readinput_m) then
     
@@ -129,16 +130,23 @@ if aikawa_readinput_m == tostring(7) then
     os.execute(aikawa_clear)
 end
 
-
 if aikawa_readinput_m == tostring(8) then
-    local aikawa_server = "OFFLINE"
-    print("[Aikawa Asami] : NOTE - This Is Just A Test Function")
-    sleep(10)
-    print("[Aikawa Asami] : If It Works, Then I'll Release The Stable Version.")
+    local aikawa_server = "Ascension"
+    print("[Aikawa Asami] : Launching osu! connected to: "..aikawa_server)
+    sleep(5)
+    os.execute("osu!.exe -devserver ascension.wtf")
+    sleep(5)
+    os.execute(aikawa_clear)
+end
+
+
+if aikawa_readinput_m == tostring(9) then
+    local aikawa_server = "Local osu! server"
+    print("[Aikawa Asami] : NOTE - Might Not Work For You")
     sleep(10)
     print("[Aikawa Asami] : Launching osu! "..aikawa_server.."!")
     sleep(25)
-    os.execute("osu!.exe -devserver aikawaasami.github.io")
+    os.execute("osu!.exe -devserver catboy.click")
     sleep(5)
     os.execute(aikawa_clear)
 end
@@ -157,4 +165,6 @@ if aikawa_readinput_m == tostring(0) then
 end
 
 end
+
+
 
